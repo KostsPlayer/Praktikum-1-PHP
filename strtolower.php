@@ -7,12 +7,12 @@
     <title>Fungsi : String</title>
 </head>
 <body>
-    <h2>Fungsi : String subtr()</h2>
+    <h2>Fungsi : String strtolower()</h2>
     <?php
         $string="Pemrograman Web PHP";
-        $word=substr($string,16,3);
+        $word=strtolower($string);
         echo("<i>\"$string\"</i> <br>");
-        echo("Hasil substr (16,3) adalah $word");
+        echo("Hasil strtolower adalah <i>\"$word\"<i>");
     ?>
 </body>
 </html>
