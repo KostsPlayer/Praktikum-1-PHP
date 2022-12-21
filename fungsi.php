@@ -15,7 +15,7 @@
             return $hasil;
         }
 
-        echo("4 + 5 = " .hitung(4,5));
+        echo("9 + 50 = " .hitung(9,50));
     ?>
 </body>
 </html>

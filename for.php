@@ -14,7 +14,7 @@
         $bulan=array("Januari","Februari","Marey","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember");
         for($i=0;$i<count($bulan);$i++)
         {
-            echo(($i+1) . " $bulan[$i] <br>");
+            echo(($i+1) . ". $bulan[$i] <br>");
         }
     ?>
 </body>
